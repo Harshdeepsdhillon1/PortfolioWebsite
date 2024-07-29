@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">My Logo</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <!--    -->
+    </nav>
+
+    <!-- Master Heading Section -->
+    <section class="hero">
+        <div class="social-media">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/yourusername/" target="_blank">LinkedIn</a>
+            <a href="mailto:your-email@example.com">Email</a>
+        </div>
+        <div class="hero-text">
+            <h1>Hi, This is Harshdeep Singh</h1>
+            <p>Passionate about Coding, Commited to Growth</p>
+        </div>
+        <div class="hero-image">
+            <img src="./images/head_image.jpg" alt="Your Name">
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>LANGUAGES</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Html, CSS & JavaScript++</li>
+                    <li>SQL</li>
+                    <li>ASP.NET</li>
+                    <li>C++</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>DEVELOPER TOOLS</h3>
+                <ul>
+                    <li>Vs Code</li>
+                    <li>Visual Studio 2022<li>
+                    <li>Azure</li>
+                    <li>PyCharm</li>
+                    <li>IntelliJ IDEA</li>
+                    <li>Scene Builder</li>
+                    <li>MySQL Workbench</li>
+                    <li>Artificial Intelligence</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>CONCEPTS</h3>
+                <ul>
+                    <li>Object-Oriented Programming</li>
+                    <li>Document Automation</li>
+                    <li>Design & Development</li>
+                    <li>Databases</li>
+                    <li>Cloud Computing</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>ADDITIONAL SKILLS</h3>
+                <ul>
+                    <li>Team Leadership</li>
+                    <li>Project Management</li>
+                    <li>Customer Service</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <a href="your-resume.pdf" download>RESUME</a>
+    </footer>
+</body>
+</html>
